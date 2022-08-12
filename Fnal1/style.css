@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #4b8a20;
+}
+/**/
+.navbar {
+    overflow: hidden;
+    background-color: #4b8a20; 
+  }
+ .navbar ul {
+    margin: 0;
+    padding: 0%;
+ }
+  .navbar a {
+    width: 100%;
+    display: flex;
+    font-size:20px;
+    color: white;
+gap: 2px;
+padding: 10px ;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    
+    float: left;
+    overflow: hidden;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #333333;/**/
+    
+  }
+  
+ 
+
+/*-------------*/
+.contenedor{
+    width: 80%;
+    max-width: 900px;
+    background-color: #fff;
+    margin: auto;
+}
+header img{
+    width: 100%;
+    max-width: 900px;
+}
+
+main img{
+    width: 100%;
+    max-width: 300px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #333333;
+    padding: 10px 15px;
+    display: block;
+}
+
+
+.menuprincipal{
+    float: left;
+}
+
+
+nav{
+    width: 100%;
+
+    height: 50px;
+    font-size: 15px;
+}
+
+nav a:hover{
+    background-color: #121212;
+}
+
+nav li ul{
+    position: absolute;
+    min-width: 140px;
+    display: none; 
+}
+
+nav li:hover >ul{
+    display: block;
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin-right: 3%;
+    margin-left: 3%;
+    max-width: 900px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+thead{
+    background-color: cyan;
+}
+.siguenos{
+    display: grid;
+    grid-template-columns: 16% 16% 16%;
+}
+.recomendado{
+    color: gray;
+}
+.recomendaciones{
+    display: flex;
+    justify-content: flex-start;
+}
+.recomendaciones img{
+    width: 60px;
+   
+}
+span{
+    padding: 10px;
+}
+.recomendaciones img{
+    padding: 10px;
+}
+.escribenos{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text input{
+    width: 95%;
+}
+textarea{
+    width: 95%;
+}
+
+
+
+
+.Lista a {
+    text-decoration: none;
+    color: #fff;
+}
+.Lista {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 25px;
+  
+    
+}
+footer {
+    background-color: #333333;
+}
